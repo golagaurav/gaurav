@@ -1,6 +1,6 @@
 /*
- * Author: ArtStyles (Rock Star)
- * Template Name: Rock Star  4
+ * Author: ArtStyles (Gaurav Gola)
+ * Template Name: Gaurav Gola  4
  * Version: 1.0.0
 */
 

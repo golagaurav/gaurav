@@ -128,6 +128,25 @@
                                 <li class="nav__item"><a href="contact.html"><i class="ri-mail-line"></i> Contact</a></li>
                             </ul>
 						</div>
+						<div class="col-span-12 md:col-span-8 space-y-2.5">
+							<!-- who am i content  -->
+							<div class="md:mr-12 xl:mr-16">
+								<h3 class="text-4xl font-medium dark:text-white mb-2.5">  <label id="lblGreetings"> </label>
+									<script>
+									var myDate = new Date();
+									var hrs = myDate.getHours();
+									var greet;
+									if (hrs >= 4 && hrs <= 11)
+									greet = '<h1>Good Morning 🌞</h1>';
+									if (hrs >= 12 && hrs <= 16)
+									greet = '<h1>Good Afternoon ☀️</h1>';
+									if (hrs >= 17 && hrs <= 23)
+									greet = '<h1>Good Evening 🌇</h1>';
+									if (hrs >= 00 && hrs <= 3)
+									greet = '<h1>Good Night 🌃</h1>';
+				document.getElementById('lblGreetings').innerHTML =
+					'<b>' + greet + '';
+
 						
 					    <!-- About -->
 						<div class="pb-0 pb-sm-2">

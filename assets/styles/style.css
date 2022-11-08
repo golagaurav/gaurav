@@ -3361,4 +3361,6 @@ button:focus {
   border-radius: 0.0625rem;
   height: 100%;
 }
+
+#more {display: none;}
 /*# sourceMappingURL=style.css.map */

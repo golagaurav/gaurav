@@ -1481,6 +1481,7 @@ button:focus {
   opacity: 1;
   -webkit-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
+  
   display: flex;
   flex-direction: column;
   justify-content: center;
